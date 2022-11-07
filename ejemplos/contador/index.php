@@ -36,4 +36,4 @@ echo "Numero de contadores creados: ".Contador::getNumContadoresInstanciados(). 
 
 echo("Repositorio con el código del contador <a href='https://github.com/JoseLuixrax/DWESUd5/blob/main/ejemplos/contador/contador.php' target=_blank>aqui</a>");
 echo "<br>";
-echo("Repositorio con el código del index <a href='https://github.com/JoseLuixrax/DWESUd5/blob/main/ejemplos/contador/contador.php' target=_blank>aqui</a>");
+echo("Repositorio con el código del index <a href='https://github.com/JoseLuixrax/DWESUd5/blob/main/ejemplos/contador/index.php' target=_blank>aqui</a>");
