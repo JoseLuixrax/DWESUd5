@@ -1,5 +1,8 @@
 <?php
-
+/** 
+ *  @author Jose Luis Pérez Lara
+ * clase contador.php
+*/
 class Contador {
     private $valor;
     private static $numContadoresInstanciados = 0;

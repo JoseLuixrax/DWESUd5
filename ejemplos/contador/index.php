@@ -1,4 +1,8 @@
 <?php
+/** 
+ *  @author Jose Luis Pérez Lara
+ * index y fichero de pruebas para la clase contador.php
+*/
 require_once("contador.php");
 echo "Creando Contador \"a\" <br>";
 $a = new Contador();
@@ -27,7 +31,7 @@ echo "Incrementando contador \"c\" <br>";
 $c->incremento();
 echo "Incrementando contador \"c\" <br>";
 $c->incremento();
-echo "Mostrando Valor \"b\" <br>";
+echo "Mostrando Valor \"c\" <br>";
 echo $c->getValor();
 echo "<br>";
 
