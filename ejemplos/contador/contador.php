@@ -26,9 +26,36 @@ class Contador {
 
 }
 
+echo "Creando Contador \"a\" <br>";
+$a = new Contador();
+echo "Incrementando contador \"a\" <br>";
+$a->incremento();
+echo "Incrementando contador \"a\" <br>";
+$a->incremento();
+echo "Mostrando Valor \"a\" <br>";
+echo $a->getValor();
+echo "<br>";
+
+echo "Creando Contador \"b\" <br>";
+$b = new Contador();
+echo "Incrementando contador \"b\" <br>";
+$b->incremento();
+echo "Mostrando Valor \"b\" <br>";
+echo $b->getValor();
+echo "<br>";
+
+
+echo "Creando Contador \"c\" <br>";
 $c = new Contador();
-$d = new Contador();
-$e = new Contador();
-echo Contador::getNumContadoresInstanciados();
+echo "Incrementando contador \"c\" <br>";
+$c->incremento();
+echo "Incrementando contador \"c\" <br>";
+$c->incremento();
+echo "Mostrando Valor \"b\" <br>";
+echo $c->getValor();
+echo "<br>";
+
+
+echo "Numero de contadores creados: ".Contador::getNumContadoresInstanciados(). "<br>";
 
 echo("Repositorio con el código <a href='https://github.com/JoseLuixrax/JoseLuixrax.github.io' target=_blank>aqui</a>");
